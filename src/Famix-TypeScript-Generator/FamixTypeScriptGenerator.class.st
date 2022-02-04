@@ -161,7 +161,7 @@ FamixTypeScriptGenerator >> defineClasses [
 	containerEntity := builder newClassNamed: #ContainerEntity.
 
 	type := builder newClassNamed: #Type.
-   namespace := builder newClassNamed: #Namespace.
+    namespace := builder newClassNamed: #Namespace.
 	
 	scopingEntity := builder newClassNamed: #ScopingEntity.
 	cSourceLanguage := builder newClassNamed: #CSourceLanguage.
@@ -183,8 +183,8 @@ FamixTypeScriptGenerator >> defineClasses [
 	attribute := builder newClassNamed: #Attribute.
 	inheritance := builder newClassNamed: #Inheritance.
 	function := builder newClassNamed: #Function.
-	AnnotationType := builder newClassNamed: #AnnotationType.
-	AnnotationInstance := builder newClassNamed: #AnnotationInstance.
+	annotationType := builder newClassNamed: #AnnotationType.
+	annotationInstance := builder newClassNamed: #AnnotationInstance.
 ]
 
 { #category : #definition }
