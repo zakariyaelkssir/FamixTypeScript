@@ -295,6 +295,15 @@ FamixTypeScriptGenerator >> defineHierarchy [
 	function --|> #TDefinedInModule.
 
 	inheritance --|> #TInheritance.
+	annotationInstance --|> sourcedEntity.
+	annotationInstance --|> #TAnnotationInstance.
+	annotationInstance --|> #TWithAnnotationInstanceAttributes.
+	annotationInstance --|> #TTypedAnnotationInstance.
+	
+	annotationType --|> type.
+	annotationType --|> #TAnnotationType.
+	annotationType --|> #TWithAttributes.
+	annotationType --|> #TWithInheritances.
 ]
 
 { #category : #definition }
